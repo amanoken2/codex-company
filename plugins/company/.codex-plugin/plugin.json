@@ -1,0 +1,37 @@
+{
+  "name": "company",
+  "version": "2.0.0",
+  "description": "仮想会社組織スキル。秘書が窓口、CEOが部署振り分け、ユーザー観察記録あり。AGENTS.md + state.json ハイブリッド。Codex / Claude Code 両対応。",
+  "author": {
+    "name": "Kenji Amano",
+    "email": "amano.kenz@gmail.com"
+  },
+  "homepage": "https://github.com/amanoken2/codex-company",
+  "repository": "https://github.com/amanoken2/codex-company",
+  "license": "MIT",
+  "keywords": [
+    "company",
+    "organization",
+    "secretary",
+    "productivity",
+    "management",
+    "codex",
+    "claude-code"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Company",
+    "shortDescription": "Build and run a virtual company in your project directory",
+    "longDescription": "対話的オンボーディングで仮想会社組織を構築するスキル。秘書が常駐窓口として何でも相談に乗り、CEOロジックが各部署に作業を振り分ける。AGENTS.md + state.json ハイブリッド構造で、Codex / Claude Code 両ツールから同じ .company/ を読み書きできる。ユーザー観察記録（profile/）で会話を重ねるほど秘書がユーザーを理解する。",
+    "developerName": "Kenji Amano",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/amanoken2/codex-company",
+    "defaultPrompt": [
+      "現在のディレクトリで仮想会社組織を起動・運営する"
+    ]
+  }
+}

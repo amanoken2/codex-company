@@ -13,12 +13,13 @@
       "description": "対話的オンボーディングで仮想会社組織を構築。秘書が常駐窓口、CEOが各部署へ振り分け。AGENTS.md ベース、ハイブリッドデータ構造、ユーザー観察記録あり。",
       "version": "2.0.0",
       "author": {
-        "name": "Kenji Amano"
+        "name": "Kenji Amano",
+        "email": "amano.kenz@gmail.com"
       },
       "repository": "https://github.com/amanoken2/codex-company",
       "license": "MIT",
       "category": "productivity",
-      "tags": ["company", "organization", "secretary", "productivity", "management", "codex", "claude-code"]
+      "keywords": ["company", "organization", "secretary", "productivity", "management", "codex", "claude-code"]
     }
   ]
 }
