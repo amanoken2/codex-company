@@ -11,7 +11,7 @@
       "name": "company",
       "source": "./plugins/company",
       "description": "対話的オンボーディングで仮想会社組織を構築。秘書が常駐窓口、CEOが各部署へ振り分け。AGENTS.md ベース、ハイブリッドデータ構造、ユーザー観察記録あり。",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "author": {
         "name": "Kenji Amano",
         "email": "amano.kenz@gmail.com"

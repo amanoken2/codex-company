@@ -157,7 +157,7 @@
 |------|--------|------|
 | `{{BUSINESS_TYPE}}` | Step 2a | 事業・活動の種類 |
 | `{{MISSION}}` | Step 2b | ミッション・目標 |
-| `{{LANGUAGE}}` | Step 4 | ja / en / bilingual |
+| `{{LANGUAGE}}` | Step 4 | ja / en / bilingual / フリーテキスト（その他選択時） |
 | `{{CREATED_DATE}}` | 自動 | 組織構築日 |
 | `{{DIRECTORY_TREE}}` | Step 3 | 確認済みフォルダツリー |
 | `{{ORG_CHART}}` | Step 3 | 組織図の部署部分 |
