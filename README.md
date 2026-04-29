@@ -59,6 +59,31 @@ codex marketplace add amanoken2/codex-company
 codex plugin install company@codex-company
 ```
 
+## 起動方法
+
+### Claude Code
+スラッシュコマンドで一発起動：
+```
+/company
+```
+
+### Codex
+**Codex には slash command の概念が無い**。次のいずれかで起動する：
+
+1. **明示呼び出し**:
+   ```
+   $company
+   ```
+2. **自然言語**（descriptionにマッチして自動発火）:
+   - 「秘書呼んで」
+   - 「仮想会社を起動」
+   - 「今日のTODO見せて」
+   - 「ダッシュボード」
+   - 「週次レビューやって」
+   - 「壁打ち相手して」
+
+初回はオンボーディングが始まり、`.company/` を作成。2回目以降は運営モードで秘書が応答。
+
 ## コンセプト
 
 ```

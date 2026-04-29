@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company"
+  short_description: "Build and run a virtual company in your project directory"
+  default_prompt: "Use $company to start or run the virtual company organization in this directory. The secretary will be your entrypoint for TODOs, projects, brainstorming, and routing work to specialized departments."

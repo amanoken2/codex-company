@@ -1,5 +1,5 @@
 {
   "name": "company",
   "description": "仮想会社組織スキル。秘書が窓口、CEOが部署振り分け、ユーザー観察記録あり。AGENTS.md + state.json ハイブリッド。",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }

@@ -1,11 +1,16 @@
 ---
 name: company
 description: >
-  仮想会社組織を構築・運営するスキル。
-  秘書が常駐の窓口として何でも相談に乗り、
-  必要に応じてCEOが判断して各部署に指示を振り分ける。
-  Codex / Claude Code 両対応。AIファースト・ハイブリッドデータ構造。
-trigger: /company
+  Use this skill whenever the user wants to set up or run a virtual company / organization
+  in the current directory, manage TODOs, brainstorm, capture inbox items, manage projects
+  and tickets, run weekly reviews, do research, generate images, or talk to a personal
+  secretary. Trigger keywords (Japanese & English): /company, $company, 秘書, 会社, 組織,
+  仮想カンパニー, ダッシュボード, 今日のタスク, TODO, 壁打ち, 相談, 週次レビュー, 振り返り,
+  企画, プロジェクト管理, secretary, virtual company, dashboard, weekly review, brainstorm.
+  Also trigger when the user references the .company/ directory or any file inside it
+  (AGENTS.md, state.json, inbox.jsonl, secretary/profile/).
+  Codex と Claude Code 両対応（Codex では $company または自然な要求で起動、
+  Claude Code では /company）。AIファースト・ハイブリッドデータ構造（MD + JSON + JSONL）。
 ---
 
 # 仮想カンパニー（Codex / Claude Code 両対応版）
